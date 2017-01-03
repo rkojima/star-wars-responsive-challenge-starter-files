@@ -3,7 +3,6 @@
 }
 
 .row {
-    width: 1000px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -25,18 +24,29 @@
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 h1 {
     margin-top: 0px;
 }
 
+/*for non-mobile browsers, to change the settings*/
 @media only screen and (min-width: 640px) {
     .col-4 {
         width: 33.33%;
     }
 
+    img {
+        max-width: 300px;
+    }
+
     .col-12 {
         width: 100%;
+    }
+
+    .row {
+        max-width: 1000px;
+        /* width is 100% by default b/c it's a block.
     }
 }
