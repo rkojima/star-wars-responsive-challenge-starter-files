@@ -1,0 +1,22 @@
+.banner {
+    background-color: orange;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main .row {
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 1px solid gray;
+}
+
+.name, .description {
+    padding-left: 20px;
+}

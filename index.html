@@ -6,6 +6,7 @@
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Toppz Star Wars Trading Cards">
 
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
@@ -14,41 +15,67 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/float-grid.css">
 
 </head>
 <body>
     <main>
-        <div class="row">
-            <div class="col-4">
-                <div class="box ray">
-                    <img src="images/rey_square.png">
-                    <p>Protagonist, from Tatooine</p>
-                </div>
-                <div class="box finn">
-                    <img src="images/finn_square.png">
-                    <p>Storm Trooper, befriends Rey</p>
-                </div>
-                <div class="box kylo">
-                    <img src="images/kylo_square.png">
-                    <p>Main villain, or is he?</p>
-                </div>
+        <div class="banner">
+          <div class="row">
+            <div class="col-12">
+              <div class="box">
+                <h1>Star Wars Characters</h1>
+                <p>Incomplete List</p>
+              </div>
             </div>
+          </div>
         </div>
         <div class="row">
-             <div class="col-4">
-                <div class="box poe">
-                    <img src="images/poe_square.png">
-                    <p>Neutral pilot</p>
-                </div>
-                <div class="box chewbacca">
-                    <img src="images/chewbacca_square.png">
-                    <p>A great first mate</p>
-                </div>
-                <div class="box yoda">
-                    <img src="images/yoda_square.png">
-                    <p>Wise old Jedi master</p>
-                </div>
-             </div>
+          <div class="col-4">
+            <div class="box ray">
+              <img src="images/rey_square.png">
+              <p class="name">Rey</p>
+              <p class="description">Protagonist, from Tatooine</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box finn">
+                <img src="images/finn_square.png">
+                <p class="name">Finn</p>
+                <p class="description">Storm Trooper, befriends Rey</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box kylo">
+              <img src="images/kylo_square.png">
+              <p class="name">Kylo</p>
+              <p class="description">Main villain, or is he?</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="box poe">
+              <img src="images/poe_square.png">
+              <p class="name">Poe</p>
+              <p class="description">Neutral pilot</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box chewbacca">
+              <img src="images/chewbacca_square.png">
+              <p class="name">Chewbacca</p>
+              <p class="description">A great first mate</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box yoda">
+              <img src="images/yoda_square.png">
+              <p class="name">Yoda</p>
+              <p class="description">Wise old Jedi master</p>
+            </div>
+          </div>
         </div>
     </main>
 </body>
